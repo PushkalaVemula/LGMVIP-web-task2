@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(31, 226, 233);
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 10rem;
+  color: rgb(180, 9, 143);
+  margin-left: 25rem;
+}
+
+h1 i {
+  color: rgb(233, 199, 48);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10%;
+  background-color: rgb(244, 252, 218);
+  box-shadow: 0px 3px 1.2px 0px whitesmoke;
+}
+
+.logo-text a {
+  font-family: serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgb(22, 23, 19);
+  text-decoration: none;
+}
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #b0ebe1;
+  text-decoration: none;
+}
+
+.btn {
+  padding: 9px 25px;
+  background-color: rgb(233, 122, 255);
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease 0s;
+}
+
+.btn:hover {
+  background-color: rgba(199, 243, 95, 0.8);
+}
+
+.cards {
+  display: table;
+}
+
+.card {
+  font-family: "Tahoma", sans-serif;
+  width: 340px;
+  overflow: hidden;
+  background: rgb(248, 170, 107);
+  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.8);
+  display: inline-block;
+  flex-direction: column;
+  border-radius: 2rem;
+  margin: 2rem;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+}
+
+.profile-image img {
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  position: relative;
+  margin-top: -85px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px;
+  border: 10px solid rgb(240, 85, 157);
+  transition-duration: 0.4s;
+  transition-property: transform;
+}
+
+.profile-image img:hover {
+  transform: scale(1.1);
+}
+
+.card-content h3 {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 11px;
+}
+
+.card-content h2 {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 11px;
+  color: rgba(146, 24, 245, 0.945);
+  text-decoration: underline;
+}
